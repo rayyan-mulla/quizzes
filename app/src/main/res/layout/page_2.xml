@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4c20d">
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/learn"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="75dp"
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image2"
+        android:text="Enhance your knowledge by attempting the quiz on programming languages."
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="35dp"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:text="Loading Next Page...."
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        />
+
+</RelativeLayout>
